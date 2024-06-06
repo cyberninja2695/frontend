@@ -1,5 +1,42 @@
 .active{
-    border-bottom: 2px solid #22C55E;
-    transform: scale(1.1);
-    transition: border-bottom 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  border-bottom: 2px solid gold;
+  transform: scale(1.1);
+  transition: border-bottom 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-navbar {
+  background-color: black; /* Custom background color */
+  display: flex;
+  align-items: center;
+  color: #D6014D; /* Custom text color */
+}
+.custom-navbar .logo-container img {
+  height: 40px;
+}
+.custom-navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+.custom-navbar .logo-text {
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+  margin-left: 10px;
+  color: gold;
+}
+.custom-navbar .logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.w3-bar .w3-button {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.w3-bar-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
